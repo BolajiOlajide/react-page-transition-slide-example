@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: beige;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.login {
+  background: midnightblue;
+}
+
+.overlay {
+  background: url("https://www.dumpaday.com/wp-content/uploads/2018/09/photos-21-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateX(0%);
+}
